@@ -84,7 +84,7 @@ const Section6 = () => {
             <Card name={card.name} src={card.src} />
           ))}
         </div>
-        <div className="w-full justify-center">
+        <div className="w-full flex justify-center pt-[55px]">
             <Button variant={"outline"}>More NFTs</Button>
         </div>
       </div>
