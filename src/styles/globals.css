@@ -1,7 +1,25 @@
 @tailwind base;
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+}
+
 @tailwind components;
+
 @tailwind utilities;
- 
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -79,3 +97,4 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
