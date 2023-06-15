@@ -9,7 +9,7 @@ const Buttons = () => {
   const [categories, setCategories] = useState([
     {
       title: "All Categories",
-      active: false,
+      active: true,
     },
     {
       title: "Art",
