@@ -3,6 +3,7 @@ import React from "react"
 import Heading from "../ui/typeopgraphy/Heading"
 import Buttons from "./Buttons"
 import Card from "./Card"
+import { Button } from "../ui/button/Button"
 
 const Section6 = () => {
   const cards = [
@@ -82,6 +83,9 @@ const Section6 = () => {
           {cards.map((card) => (
             <Card name={card.name} src={card.src} />
           ))}
+        </div>
+        <div className="w-full justify-center">
+            <Button variant={"outline"}>More NFTs</Button>
         </div>
       </div>
     </div>
