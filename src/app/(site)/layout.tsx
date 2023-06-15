@@ -6,8 +6,8 @@ import Footer from "@/components/Footer/Footer"
 import Navbar from "@/components/navbar/Navbar"
 
 export const metadata = {
-  title: "  Next start template",
-  description: "Next.js 13 start template",
+  title: "NFT Challange",
+  description: "NFT Challange",
 }
 
 export default async function Root({
